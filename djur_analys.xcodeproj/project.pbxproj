@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2BCED252AF3D6B7002A6443 /* djur_analysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCED242AF3D6B7002A6443 /* djur_analysApp.swift */; };
+		B2BCED272AF3D6B7002A6443 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCED262AF3D6B7002A6443 /* ContentView.swift */; };
+		B2BCED292AF3D6B7002A6443 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCED282AF3D6B7002A6443 /* Item.swift */; };
+		B2BCED2B2AF3D6B8002A6443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BCED2A2AF3D6B8002A6443 /* Assets.xcassets */; };
+		B2BCED2E2AF3D6B8002A6443 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BCED2D2AF3D6B8002A6443 /* Preview Assets.xcassets */; };
+		B2BCED382AF3D6B8002A6443 /* djur_analysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCED372AF3D6B8002A6443 /* djur_analysTests.swift */; };
+		B2BCED422AF3D6B8002A6443 /* djur_analysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCED412AF3D6B8002A6443 /* djur_analysUITests.swift */; };
+		B2BCED442AF3D6B8002A6443 /* djur_analysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCED432AF3D6B8002A6443 /* djur_analysUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2BCED342AF3D6B8002A6443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2BCED192AF3D6B7002A6443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BCED202AF3D6B7002A6443;
+			remoteInfo = djur_analys;
+		};
+		B2BCED3E2AF3D6B8002A6443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2BCED192AF3D6B7002A6443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BCED202AF3D6B7002A6443;
+			remoteInfo = djur_analys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2BCED212AF3D6B7002A6443 /* djur_analys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = djur_analys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BCED242AF3D6B7002A6443 /* djur_analysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djur_analysApp.swift; sourceTree = "<group>"; };
+		B2BCED262AF3D6B7002A6443 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2BCED282AF3D6B7002A6443 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B2BCED2A2AF3D6B8002A6443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2BCED2D2AF3D6B8002A6443 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2BCED332AF3D6B8002A6443 /* djur_analysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = djur_analysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BCED372AF3D6B8002A6443 /* djur_analysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djur_analysTests.swift; sourceTree = "<group>"; };
+		B2BCED3D2AF3D6B8002A6443 /* djur_analysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = djur_analysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BCED412AF3D6B8002A6443 /* djur_analysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djur_analysUITests.swift; sourceTree = "<group>"; };
+		B2BCED432AF3D6B8002A6443 /* djur_analysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = djur_analysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2BCED1E2AF3D6B7002A6443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCED302AF3D6B8002A6443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCED3A2AF3D6B8002A6443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2BCED182AF3D6B7002A6443 = {
+			isa = PBXGroup;
+			children = (
+				B2BCED232AF3D6B7002A6443 /* djur_analys */,
+				B2BCED362AF3D6B8002A6443 /* djur_analysTests */,
+				B2BCED402AF3D6B8002A6443 /* djur_analysUITests */,
+				B2BCED222AF3D6B7002A6443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BCED222AF3D6B7002A6443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2BCED212AF3D6B7002A6443 /* djur_analys.app */,
+				B2BCED332AF3D6B8002A6443 /* djur_analysTests.xctest */,
+				B2BCED3D2AF3D6B8002A6443 /* djur_analysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BCED232AF3D6B7002A6443 /* djur_analys */ = {
+			isa = PBXGroup;
+			children = (
+				B2BCED242AF3D6B7002A6443 /* djur_analysApp.swift */,
+				B2BCED262AF3D6B7002A6443 /* ContentView.swift */,
+				B2BCED282AF3D6B7002A6443 /* Item.swift */,
+				B2BCED2A2AF3D6B8002A6443 /* Assets.xcassets */,
+				B2BCED2C2AF3D6B8002A6443 /* Preview Content */,
+			);
+			path = djur_analys;
+			sourceTree = "<group>";
+		};
+		B2BCED2C2AF3D6B8002A6443 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2BCED2D2AF3D6B8002A6443 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2BCED362AF3D6B8002A6443 /* djur_analysTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BCED372AF3D6B8002A6443 /* djur_analysTests.swift */,
+			);
+			path = djur_analysTests;
+			sourceTree = "<group>";
+		};
+		B2BCED402AF3D6B8002A6443 /* djur_analysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BCED412AF3D6B8002A6443 /* djur_analysUITests.swift */,
+				B2BCED432AF3D6B8002A6443 /* djur_analysUITestsLaunchTests.swift */,
+			);
+			path = djur_analysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2BCED202AF3D6B7002A6443 /* djur_analys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BCED472AF3D6B8002A6443 /* Build configuration list for PBXNativeTarget "djur_analys" */;
+			buildPhases = (
+				B2BCED1D2AF3D6B7002A6443 /* Sources */,
+				B2BCED1E2AF3D6B7002A6443 /* Frameworks */,
+				B2BCED1F2AF3D6B7002A6443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = djur_analys;
+			productName = djur_analys;
+			productReference = B2BCED212AF3D6B7002A6443 /* djur_analys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2BCED322AF3D6B8002A6443 /* djur_analysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BCED4A2AF3D6B8002A6443 /* Build configuration list for PBXNativeTarget "djur_analysTests" */;
+			buildPhases = (
+				B2BCED2F2AF3D6B8002A6443 /* Sources */,
+				B2BCED302AF3D6B8002A6443 /* Frameworks */,
+				B2BCED312AF3D6B8002A6443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BCED352AF3D6B8002A6443 /* PBXTargetDependency */,
+			);
+			name = djur_analysTests;
+			productName = djur_analysTests;
+			productReference = B2BCED332AF3D6B8002A6443 /* djur_analysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2BCED3C2AF3D6B8002A6443 /* djur_analysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BCED4D2AF3D6B8002A6443 /* Build configuration list for PBXNativeTarget "djur_analysUITests" */;
+			buildPhases = (
+				B2BCED392AF3D6B8002A6443 /* Sources */,
+				B2BCED3A2AF3D6B8002A6443 /* Frameworks */,
+				B2BCED3B2AF3D6B8002A6443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BCED3F2AF3D6B8002A6443 /* PBXTargetDependency */,
+			);
+			name = djur_analysUITests;
+			productName = djur_analysUITests;
+			productReference = B2BCED3D2AF3D6B8002A6443 /* djur_analysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2BCED192AF3D6B7002A6443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B2BCED202AF3D6B7002A6443 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B2BCED322AF3D6B8002A6443 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B2BCED202AF3D6B7002A6443;
+					};
+					B2BCED3C2AF3D6B8002A6443 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B2BCED202AF3D6B7002A6443;
+					};
+				};
+			};
+			buildConfigurationList = B2BCED1C2AF3D6B7002A6443 /* Build configuration list for PBXProject "djur_analys" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2BCED182AF3D6B7002A6443;
+			productRefGroup = B2BCED222AF3D6B7002A6443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2BCED202AF3D6B7002A6443 /* djur_analys */,
+				B2BCED322AF3D6B8002A6443 /* djur_analysTests */,
+				B2BCED3C2AF3D6B8002A6443 /* djur_analysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2BCED1F2AF3D6B7002A6443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BCED2E2AF3D6B8002A6443 /* Preview Assets.xcassets in Resources */,
+				B2BCED2B2AF3D6B8002A6443 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCED312AF3D6B8002A6443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCED3B2AF3D6B8002A6443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BCED1D2AF3D6B7002A6443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BCED272AF3D6B7002A6443 /* ContentView.swift in Sources */,
+				B2BCED292AF3D6B7002A6443 /* Item.swift in Sources */,
+				B2BCED252AF3D6B7002A6443 /* djur_analysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCED2F2AF3D6B8002A6443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BCED382AF3D6B8002A6443 /* djur_analysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCED392AF3D6B8002A6443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BCED422AF3D6B8002A6443 /* djur_analysUITests.swift in Sources */,
+				B2BCED442AF3D6B8002A6443 /* djur_analysUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2BCED352AF3D6B8002A6443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2BCED202AF3D6B7002A6443 /* djur_analys */;
+			targetProxy = B2BCED342AF3D6B8002A6443 /* PBXContainerItemProxy */;
+		};
+		B2BCED3F2AF3D6B8002A6443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2BCED202AF3D6B7002A6443 /* djur_analys */;
+			targetProxy = B2BCED3E2AF3D6B8002A6443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2BCED452AF3D6B8002A6443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2BCED462AF3D6B8002A6443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2BCED482AF3D6B8002A6443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"djur_analys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.aesecurity.djur-analys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2BCED492AF3D6B8002A6443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"djur_analys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.aesecurity.djur-analys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2BCED4B2AF3D6B8002A6443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.aesecurity.djur-analysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/djur_analys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/djur_analys";
+			};
+			name = Debug;
+		};
+		B2BCED4C2AF3D6B8002A6443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.aesecurity.djur-analysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/djur_analys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/djur_analys";
+			};
+			name = Release;
+		};
+		B2BCED4E2AF3D6B8002A6443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.aesecurity.djur-analysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = djur_analys;
+			};
+			name = Debug;
+		};
+		B2BCED4F2AF3D6B8002A6443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.aesecurity.djur-analysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = djur_analys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BCED1C2AF3D6B7002A6443 /* Build configuration list for PBXProject "djur_analys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BCED452AF3D6B8002A6443 /* Debug */,
+				B2BCED462AF3D6B8002A6443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BCED472AF3D6B8002A6443 /* Build configuration list for PBXNativeTarget "djur_analys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BCED482AF3D6B8002A6443 /* Debug */,
+				B2BCED492AF3D6B8002A6443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BCED4A2AF3D6B8002A6443 /* Build configuration list for PBXNativeTarget "djur_analysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BCED4B2AF3D6B8002A6443 /* Debug */,
+				B2BCED4C2AF3D6B8002A6443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BCED4D2AF3D6B8002A6443 /* Build configuration list for PBXNativeTarget "djur_analysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BCED4E2AF3D6B8002A6443 /* Debug */,
+				B2BCED4F2AF3D6B8002A6443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2BCED192AF3D6B7002A6443 /* Project object */;
+}
